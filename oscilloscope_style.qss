@@ -1,0 +1,155 @@
+
+QWidget{
+    color: #272d3d;
+    background-color: #272d3d ;
+}
+
+QPushButton {
+  background-color: #8498a2 ;
+/*  color:  #FFC300 ;*/
+  color:rgb(255,255,255);
+  font-weight: 600;
+  border-radius: 2px;
+  /*border: 1px solid #0d6efd;*/
+  /*padding: 5px 15px;*/
+  margin-top: 10px;
+  outline: 0px;
+   height: 40px;
+}
+
+
+QPushButton:pressed {
+   /* background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dadbde, stop: 1 #f6f7fa);*/
+   background-color:#00ff00
+}
+
+QPushButton:checked {
+   background-color:#8498a2
+}
+QPushButton#save_btn:checked{
+  background-color:#00ffc3
+}
+
+QPushButton#Time_button:checked{
+  background-color:#00ffc3
+}
+
+QPushButton#Freq_button:checked{
+  background-color:#00ffc3
+}
+
+QPushButton#xy_btn:checked{
+  background-color:#00ffc3
+}
+
+QPushButton#bar_btn:checked{
+  background-color:#00ffc3
+}
+
+
+
+
+
+QPushButton#Record_btn{
+  image:url(images/record_icon1.png);  
+  min-width:20px; 
+}
+
+QPushButton#Record_btn:checked{
+  image:url(images/record_icon2.png);  
+  min-width:20px; 
+}
+
+QPushButton#Record_btn:disabled{
+  image:url(images/record_icon3.png);  
+  min-width:20px; 
+}
+
+
+QPushButton#Play_btn{
+  image:url(images/play_icon.png);  
+  min-width:20px; 
+}
+
+QPushButton#Play_btn:checked{
+  image:url(images/pause_icon.png);  
+  min-width:20px; 
+}
+
+
+QPushButton#Load_btn{
+  image:url(images/open_icon.png); 
+  min-width:30px; 
+}
+
+
+QLabel{
+  background-color: #272d3d ;
+  color:  #FFC300 ;
+  
+}
+
+
+QSlider::groove:horizontal {
+             
+        height: 4px;            
+       /* background-color: #f2f2f2;*/
+        border:none;
+        border-radius:1px ;          
+            
+        }
+
+QSlider::handle:horizontal {
+            background-color:#ffccf2 ;                                
+            border: 4px solid #ff33cc; 
+            margin-top:-8px;   
+            margin-bottom:-8px; 
+            width:12px;              
+            border-radius:10px;          
+      
+        
+        }
+
+QSlider::handle:horizontal:hover {
+            background-color:#ff33cc;
+        }
+QSlider::add-page:horizontal {
+            background: #f2f2f2;
+            
+            
+        }
+
+QSlider::sub-page:horizontal {
+            background: #3399ff;
+           
+            
+        }
+
+
+
+
+QProgressBar {
+            background-color: #DA7B93;
+            color: rgb(200, 200, 200);
+            border-style: none;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+QProgressBar::chunk {
+            border-radius: 0px;
+            background-color: qlineargradient(spread:pad x1:0, x2:1, y1:0.511364, y2:0.523, stop:0 #1C3334, stop:1 #376E6F); 
+        }
+    
+
+
+
+
+
+
+
+     
+
+
+
